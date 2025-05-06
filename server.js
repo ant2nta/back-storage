@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 app.get('/status', (req, res) => {
-  res.json({ status: 'disabled' });
+  res.json({ status: 'enabled' });
 });
 
 app.listen(PORT, () => {
